@@ -4,10 +4,18 @@
 # You can download Pester from http://go.microsoft.com/fwlink/?LinkID=534084
 #
 
-Describe "Get-Function" {
+Describe "Morse-Spk" {
 	Context "Function Exists" {
 		It "Should Return" {
-		
+	        $palavra = 'Teste pegue papel e caneta'
+            $tamanho = $palavra.Length
+            $e = $tamanho.ToString();
+            
+            for($i =0 ; $i -lt $e;$i++ ){
+            $x = $palavra.Substring($i,1);
+            Morse-Spk($x)
+            Start-Sleep -s 1
+            }
 		}
 	}
 }

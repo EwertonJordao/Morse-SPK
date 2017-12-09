@@ -7,6 +7,15 @@
     <RootNamespace>MyApplication</RootNamespace>
     <AssemblyName>MyApplication</AssemblyName>
     <Name>MorseSPK</Name>
+    <ManifestPath>$(OutDir)\$(ProjectName).psd1</ManifestPath>
+    <Author>Ewerton Jordao</Author>
+    <CompanyName>Ewerton Jordao</CompanyName>
+    <Copyright>(c) 2017 EwertonJordao. All rights reserved.</Copyright>
+    <Guid>8edaa461-d787-4bb9-b216-a9ff3820b2c0</Guid>
+    <ProcessorArchitecture />
+    <VariablesToExport>$letter</VariablesToExport>
+    <CmdletsToExport>Morse-Spk</CmdletsToExport>
+    <AliasesToExport>mspk</AliasesToExport>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

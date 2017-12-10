@@ -113,9 +113,11 @@ function Morse-Spk {Param($letter)
                    for($i=0;$i -lt 2 ;$i++)
                     {[console]::Beep($frequency,$durationS)}
                     ;break }
-                #ponctuation 
-
-                #numbers
+                #Todo 
+		        #ponctuation 
+		        
+                #Todo 
+		        #numbers
 
                Default {$default}
              }

@@ -7,7 +7,7 @@
 Describe "Morse-Spk" {
 	Context "Function Exists" {
 		It "Should Return" {
-	        $palavra = 'Teste pegue papel e caneta'
+	        $palavra = 'Hello World! Morse Code!'
             $tamanho = $palavra.Length
             $e = $tamanho.ToString();
             
